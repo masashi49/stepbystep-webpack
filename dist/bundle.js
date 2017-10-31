@@ -65,19 +65,34 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-var cats = __webpack_require__(1);
-var catsjson = __webpack_require__(2);
-var catsyml = __webpack_require__(3);
-console.log(cats , catsjson , catsyml);
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__cats__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_json_loader_cats_json__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_json_loader_cats_json___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_json_loader_cats_json__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__catsyml__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__catsyml___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__catsyml__);
+
+
+//var catsyml = require('./catsyml');
+
+
+console.log(__WEBPACK_IMPORTED_MODULE_0__cats__["a" /* default */] , __WEBPACK_IMPORTED_MODULE_1_json_loader_cats_json___default.a , __WEBPACK_IMPORTED_MODULE_2__catsyml___default.a);
+
+
+//requireで読み込んだ方がdistされたファイルが小さい。
+//importはes2015の記述だから、一度何かに変換しているのか？
 
 /***/ }),
 /* 1 */
-/***/ (function(module, exports) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-var cats = ['わちにん', 'jsとりまいsた', 'tossssssssra' , 'kumamoto'];
-module.exports = cats;
+"use strict";
+var cats = ['ここ', 'jsとりまいsた', 'じっd' , 'kumamoto'];
+
+/* harmony default export */ __webpack_exports__["a"] = (cats);
 
 /***/ }),
 /* 2 */

@@ -1,2 +1,3 @@
-var cats = ['わちにん', 'jsとりまいsた', 'tossssssssra' , 'kumamoto'];
-module.exports = cats;
+var cats = ['ここ', 'jsとりまいsた', 'じっd' , 'kumamoto'];
+
+export default cats
