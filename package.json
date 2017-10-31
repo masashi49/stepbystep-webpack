@@ -1,0 +1,17 @@
+{
+  "name": "yarn",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/masashi49/stepbystep-webpack.git",
+  "author": "山田将史 <shisama94@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "json-loader": "^0.5.7",
+    "webpack": "^3.8.1",
+    "yaml-loader": "^0.5.0"
+  }
+}
